@@ -16,8 +16,8 @@ Vue.config.productionTip = false
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: Index },
-  { path: '/about', component: About }
+  { path: '/123', component: Index },
+  { path: '/123/about', component: About }
 ]
 
 const router = new VueRouter({
